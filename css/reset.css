@@ -1,0 +1,66 @@
+* body{ 
+padding: 0;
+margin: 0;
+}
+
+
+
+body { 
+    background-color: white;
+}
+
+
+h1 { 
+    color: #394b50;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+p {
+    color: #394b50;
+    font-size: medium;
+    text-align: center;
+}
+
+
+.section-padding h1, .section-padding p { 
+    text-align: center;
+}
+
+.section-padding {
+    padding: 5% 0;
+}
+
+h4 { 
+    font-size: medium;
+    font-weight: bold;
+    color: #394b50;
+    
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.text-orange {
+    color: #f8986a
+}
+
+.text-orange-1 {
+    color: #ffbb42;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-address{ 
+color: #b7c2c6;
+}

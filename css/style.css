@@ -1,0 +1,376 @@
+
+.navbar .active {
+    background-color:#ffbb42 ;
+}
+
+
+.banner{ 
+    background-color: #709dca;
+    text-align: center;
+    height: 100vh;
+}
+
+
+
+.banner input { 
+    display: inline;
+    margin: 0 10px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.btn { 
+    background-color: #ffbb42;
+}
+    
+.computer { 
+    text-align: center;
+    position: relative;
+   margin-top: 10%;
+    min-height: 500px;
+    background-image: url('../Img/computer.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.screen {
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+
+/* services */
+
+.services {
+    padding-top: 10%;
+}
+
+.serv-1 li
+
+ { 
+    position: relative;
+    list-style: none;
+    padding-bottom: 8rem!important;  
+}
+
+.serv-1 li article {
+    position: absolute;
+    top: 0;
+    left: 80px;
+   
+}
+
+.serv-1 li  p {  
+        text-align: justify;
+        font-size: small;
+}
+
+.serv-1 li h4{   
+    font-size: medium;
+    font-weight: bold;
+}
+
+.serv-1 li  img { color: #faad80;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: 0;
+}
+
+.serv-1 i { 
+    position: relative;
+    color: #709dca;
+    font-size: 50px;
+    width: 30px !important;
+    height: 24px !important;
+}
+
+
+
+/*  ABOUT US     */
+
+.about-us {
+    background-color: #fff ;
+    height: 100vh;
+}
+
+
+.about-us img { 
+    height: 100vh;
+    width: 100%;
+}
+
+.about1, .about2 {
+    padding: 0;
+    background-color: #ffc155;
+}
+
+.about2 {
+    position: relative;
+
+}
+
+.about2 article {
+    position: absolute;
+    left: 10%;
+    top: 30vh;
+    width: 70%;
+}
+
+.about2 article h4 {
+    color: #fff;
+}
+
+.about2 article p { 
+    text-align: justify;
+    color: #fff;
+}
+
+.about2 a { 
+    color: #fff;
+    border: 1px solid #927138;
+    padding: 10px;
+
+
+}
+
+
+/*  PRICING */
+
+.pricing { 
+    background-color: #e7edf3;
+    padding-top: 10%;
+    height: 100%;
+    padding-bottom: 10%s;
+
+
+}
+
+
+.pricing1, .pricing2{ 
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+}
+
+.pricing1 ul {
+    padding: 0 0;
+}
+
+.pricing1 { 
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.pricing1 li  {
+    border-bottom: 1px solid #b5bbc1;
+    text-align: center;
+    margin-top: 5%;
+}
+}
+
+.pricing1  li a{ 
+    background: #ffbb42 ;
+    text-align: center;
+    padding: 2%;
+}
+
+
+.pricing2{
+    padding-top: 8%;
+    background-color: #709dca;
+    padding-bottom: 3%;
+    
+}
+
+.pricing2 li  {
+    border-bottom: 1px solid #b5bbc1;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+/* How it works  */
+
+.how-it-works {
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+
+.how-it-works img { 
+    height: 20%;
+    width:  20%;
+    text-align: center; 
+    margin: 10% 0;
+    color: #98b8d9;
+}
+
+.how-it-works h3{ 
+    margin-bottom: 2rem;
+}
+
+.how-it-works-2 {
+    margin: 5% 0;
+}
+    
+
+
+.how-it-works-2 a{
+    background-color: #ffbb42;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/* happy clients */
+
+
+.happy {
+    background-color:#ffc155;
+
+}
+
+
+.happy p, .happy h1 { 
+    color: #fff;
+}
+
+.happy p {
+   margin-bottom: 3%
+}
+
+.happy-client li{ 
+    background-color: #fff;
+    padding-left: 0px;
+}
+    
+
+.happy-client article {
+    position: relative;
+    padding-bottom: 20%!important;
+    margin-bottom: 4%;
+    padding-top: 20%;
+    
+}
+
+
+.happy-client img { 
+    position: absolute;
+    top: 20%;
+    left: 3%; }
+
+.happy-client blockquote  {
+    position: absolute;
+    top: 35px;
+    left: 30%;
+    font-size: medium;
+}
+
+.happy-client p { 
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    font-size: medium;
+    font-weight: 700;
+    color: #394b50;
+    font-size: medium;
+}
+
+
+
+.form-group  {
+    text-align: center;
+}
+
+
+/* newsletter */
+
+
+.map {
+    width: auto;
+    height: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.address img  { 
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    z-index: 10px;
+
+}
+
+.address p {
+    position: absolute;
+    top: 15%;
+    left: 40.5%;
+    z-index: 50px;
+    
+
+}
+
+
+.logo { 
+    position: absolute;
+    top: 60%;
+    left: 46%;
+
+}
+
+
+.newsletter { 
+    margin-bottom: 1px solid #394b50;
+}
+
+
+.links li{ 
+    display: inline; 
+    margin: 2% 2%;
+
+}
+
+.links a {
+    color: #394b50;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.links i, .links p{ 
+    color: #394b50;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.icons li {
+    display: inline;
+    text-align: center;
+    
+}
+
+.icons i {
+    color: #709dca;
+    font-size: xx-large;
+
+}
+
+
+footer {
+    background-color: #709dca;
+    padding: 0.5% 0;
+
+}
