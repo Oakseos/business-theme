@@ -1,4 +1,6 @@
 
+
+
 .navbar .active {
     background-color:#ffbb42 ;
 }
@@ -176,7 +178,6 @@
     text-align: center;
     margin-top: 5%;
 }
-}
 
 .pricing1  li a{ 
     background: #ffbb42 ;
@@ -245,52 +246,21 @@
 }
 
 
-.happy p, .happy h1 { 
-    color: #fff;
-}
-
-.happy p {
-   margin-bottom: 3%
-}
-
-.happy-client li{ 
-    background-color: #fff;
-    padding-left: 0px;
-}
+/* .happy-client { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+     padding-left: 0px; */
+/* } */
     
 
-.happy-client article {
-    position: relative;
-    padding-bottom: 20%!important;
+article {
+    display: flex;
     margin-bottom: 4%;
-    padding-top: 20%;
-    
+    background-color: white;
+    justify-content: space-between;
 }
-
-
-.happy-client img { 
-    position: absolute;
-    top: 20%;
-    left: 3%; }
-
-.happy-client blockquote  {
-    position: absolute;
-    top: 35px;
-    left: 30%;
-    font-size: medium;
-}
-
-.happy-client p { 
-    position: absolute;
-    top: 80%;
-    left: 30%;
-    font-size: medium;
-    font-weight: 700;
-    color: #394b50;
-    font-size: medium;
-}
-
-
 
 .form-group  {
     text-align: center;
@@ -300,12 +270,13 @@
 /* newsletter */
 
 
-.map {
+.map { background-image: url(../Img/dotted_map.png);
     width: auto;
-    height: 100%;
+    height: 80vh;
     position: relative;
+    background-size: cover;
     margin-top: 5%;
-}
+    background-repeat: no-repeat;}
 
 .address img  { 
     position: absolute;
